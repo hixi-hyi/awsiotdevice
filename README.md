@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	MQTT "github.com/eclipse/paho.mqtt.golang"
-	"github.dena.jp/Golang/awsiotdevice"
+	"github.com/hixi-hyi/awsiotdevice"
 )
 
 var defaultMTTTHandler MQTT.MessageHandler = func(client MQTT.Client, message MQTT.Message) {
